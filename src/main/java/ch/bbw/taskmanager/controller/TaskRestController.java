@@ -1,9 +1,10 @@
-package ch.bbw.TaskManager.controller;
+package ch.bbw.taskmanager.controller;
 
-import ch.bbw.TaskManager.model.Task;
-import ch.bbw.TaskManager.repository.TaskRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import ch.bbw.taskmanager.model.Task;
+import ch.bbw.taskmanager.repository.TaskRepository;
 
 import java.util.List;
 import java.util.Optional;

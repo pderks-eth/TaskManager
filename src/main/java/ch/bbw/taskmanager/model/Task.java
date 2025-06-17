@@ -1,4 +1,4 @@
-package ch.bbw.TaskManager.model;
+package ch.bbw.taskmanager.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

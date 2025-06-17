@@ -1,9 +1,10 @@
-package ch.bbw.TaskManager.initializer;
+package ch.bbw.taskmanager.initializer;
 
-import ch.bbw.TaskManager.model.Task;
-import ch.bbw.TaskManager.repository.TaskRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import ch.bbw.taskmanager.model.Task;
+import ch.bbw.taskmanager.repository.TaskRepository;
 
 @Component
 public class DataInitializer implements CommandLineRunner {

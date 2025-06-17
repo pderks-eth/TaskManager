@@ -1,8 +1,9 @@
-package ch.bbw.TaskManager.repository;
+package ch.bbw.taskmanager.repository;
 
-import ch.bbw.TaskManager.model.Task;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import ch.bbw.taskmanager.model.Task;
 
 import java.util.List;
 
